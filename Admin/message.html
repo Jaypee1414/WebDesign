@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Chat-02-main/style.css">
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+	<!-- Font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" >
+
+
+	<title>AdminHub</title>
+</head>
+<body>
+
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">Admin FIX it</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="index.html">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Message</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link">Categories</a>
+			<form action="#">
+				<div class="form-input">
+					<input type="search" placeholder="Search...">
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+				</div>
+			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			<a href="message.html" class="notification">
+				<i class='bx bxs-bell' ></i>
+			</a>
+			<a href="#" class="profile">
+				<img src="img/people.jpg">
+			</a>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Messages</h1>
+				</div>
+				<a href="#" class="btn-download">
+					<i class='bx bxs-cloud-download' ></i>
+					<span class="text">Download PDF</span>
+				</a>
+			</div>
+            <div class="container-fluid h-100">
+                <div class="row justify-content-center h-100">
+                    <div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
+                        <div class="card-header">
+                            <div class="input-group">
+                                <input type="text" placeholder="Search..." name="" class="form-control search">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text search_btn"><i class="fas fa-search"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body contacts_body">
+                            <ui class="contacts">
+                            <li class="active">
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="/Admin/img/sampang.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>Madzfar Sampang</span>
+                                        <p>Online</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="/Admin/img/people1.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon offline"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>shamir Andaz</span>
+                                        <p>Left 7 mins ago</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="/Admin/img/broco.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>Brocoli</span>
+                                        <p>Online</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="/Admin/img/ramz.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon offline"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>Ramz</span>
+                                        <p>Left 30 mins ago</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="/Admin/img/dhen.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon offline"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>Dhen pogz</span>
+                                        <p>Left 50 mins ago</p>
+                                    </div>
+                                </div>
+                            </li>
+                            </ui>
+                        </div>
+                        <div class="card-footer"></div>
+                    </div></div>
+                    <div class="col-md-8 col-xl-6 chat">
+                        <div class="card">
+                            <div class="card-header msg_head">
+                                <div class="d-flex bd-highlight">
+                                    <div class="img_cont">
+                                        <img src="/Admin/img/sampang.jpg" class="rounded-circle user_img">
+                                        <span class="online_icon"></span>
+                                    </div>
+                                    <div class="user_info">
+                                        <span>Madzfar Sampang</span>
+                                        <p>1767 Messages</p>
+                                    </div>
+                                    <div class="video_cam">
+                                        <span><i class="fas fa-video"></i></span>
+                                        <span><i class="fas fa-phone"></i></span>
+                                    </div>
+                                </div>
+                                <span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
+                                <div class="action_menu">
+                                    <ul>
+                                        <li><i class="fas fa-user-circle"></i> View profile</li>
+                                        <li><i class="fas fa-users"></i> Add to close friends</li>
+                                        <li><i class="fas fa-plus"></i> Add to group</li>
+                                        <li><i class="fas fa-ban"></i> Block</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body msg_card_body">
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="/Admin/img/sampang.jpg" class="rounded-circle user_img_msg">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        Pwede moba ayusin ang PC ko sir
+                                        <span class="msg_time">8:40 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        Hello madz ofcourse pwede ko yan ayusin madali lang para saakin yan
+                                        <span class="msg_time_send">8:55 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                <img src="https://avatars.hsoubcdn.com/ed57f9e6329993084a436b89498b6088?s=256" class="rounded-circle user_img_msg">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="/Admin/img/sampang.jpg" class="rounded-circle user_img_msg">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        magaling po ba kayo?
+                                        <span class="msg_time">9:00 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        Magaling ako kahit saan payan
+                                        <span class="msg_time_send">9:05 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                <img src="https://avatars.hsoubcdn.com/ed57f9e6329993084a436b89498b6088?s=256" class="rounded-circle user_img_msg">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="/Admin/img/sampang.jpg" class="rounded-circle user_img_msg">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        okay sir, dadaan nalang ako mamaya gabi dyan sa office niyo see you later
+                                        <span class="msg_time">9:07 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        hahantayin madz hahantayin mag reready na din ako
+                                        <span class="msg_time_send">9:10 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                            <img src="https://avatars.hsoubcdn.com/ed57f9e6329993084a436b89498b6088?s=256" class="rounded-circle user_img_msg">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="/Admin/img/sampang.jpg" class="rounded-circle user_img_msg">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        Bye, see you
+                                        <span class="msg_time">9:12 AM, Today</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="input-group">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+                                    </div>
+                                    <textarea name="" class="form-control type_msg" placeholder="Type your message..."></textarea>
+                                    <div class="input-group-append">
+                                        <span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</main>
+        
+		<!-- MAIN -->
+	</section>
+
+    
+	<!-- CONTENT -->
+	
+
+	<script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
