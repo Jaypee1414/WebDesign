@@ -6,6 +6,9 @@ html {
 	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 }
+#main{
+	margin-top: 40px;
+}
 
 .chat {
 	margin-top: auto;
