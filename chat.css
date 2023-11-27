@@ -1,5 +1,5 @@
 body,
-html {
+html {    
 	height: 100%;
 	margin: 0;
 	background: #7F7FD5;
@@ -7,6 +7,9 @@ html {
 	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
 }
 
+#main{
+    margin-top: -50px;
+}
 .chat {
 	margin-top: auto;
 	margin-bottom: auto;
